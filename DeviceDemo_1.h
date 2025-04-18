@@ -1,5 +1,5 @@
 ﻿#pragma once
-#pragma execution_character_set("utf-8")
+//#pragma execution_character_set("utf-8")
 
 #ifndef DLL_API
 #ifdef DLL_EXPORTS
@@ -14,9 +14,9 @@
 extern "C" {
 	typedef struct DeviceInfo
 	{
-		char* deviceName[256];		// 设备名
-		char* protocol[128];        // 协议类型：TCP/UDP/DDS...
-		char* ip[16];               // 设备IP（IPV4）
+		char deviceName[256];		// 设备名
+		char protocol[128];        // 协议类型：TCP/UDP/DDS...
+		char ip[16]; //char* ip[16];               // 设备IP（IPV4）
 		int port;                   // 设备端口号
 	}TY_DEVICE_INFO;
 

@@ -5,5 +5,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DeviceDemo_1.h" />
+    <ClInclude Include="msgDef.h" />
   </ItemGroup>
 </Project>
