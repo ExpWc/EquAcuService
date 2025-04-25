@@ -1,5 +1,6 @@
 
 typedef unsigned int UINT32;
+typedef unsigned long long ULL;
 
 struct EmtStruct {
 	UINT32 scnPlatId;			// 平台Id    4
